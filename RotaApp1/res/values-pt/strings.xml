@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rota App1</string>
+    <string name="settings">Configurações</string>
+	<string name="title_activity_settings_screen">Configurações</string>
+	<string name="title_activity_notification_screen">Notificação</string>
+	    
+	<string name="notification_when">Notificar-me quando estiver em um raio de:</string>
+	<string name="latitude">Latitude</string>
+	<string name="longitude">Longitude</string>
+	<string name="place_lat_long">Do local com as posições:</string>
+	<string name="distance_hint">Ex.: 5 metros de distância</string>
+	<string name="lat_hint">Sua latitude, ex.: -3,2731649</string>
+	<string name="long_hint">Sua longitude, ex.: -60,6458105</string>
+	<string name="save_notification">Salvar notificação</string>
+	<string name="near_destiny">Ei, prepare-se, estamos chegando ao seu destino!</string>
+	<string name="button_speak">Falar localização</string>
+</resources>

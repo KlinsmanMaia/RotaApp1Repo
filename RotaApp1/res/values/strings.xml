@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rota App1</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings_screen">Settings</string>
+    <string name="title_activity_notification_screen">Notification</string>
+    <string name="notification_when">When it is near of:</string>
+    <string name="place_lat_long">Place with positions:</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="distance_hint">Ex.: 5 m distance</string>
+    <string name="lat_hint">Your latitude, ex.: -3,2731649</string>
+    <string name="long_hint">Your longitude, ex.: -60,6458105</string>
+    <string name="save_notification">Save notification</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="near_destiny">Hey, you are near of your destiny</string>
+    <string name="button_speak">Speak location</string>
+
+</resources>

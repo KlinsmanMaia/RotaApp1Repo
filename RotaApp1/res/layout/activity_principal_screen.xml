@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uea.kmg.rotaapp1.PrincipalScreen" >
+
+	<TextView 
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+	<Button
+	    android:id="@+id/btSpeak"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/tv_location"
+	    android:text="@string/button_speak" />
+	<fragment
+		android:id="@+id/map"
+	  	android:layout_width="match_parent"
+	  	android:layout_height="match_parent"
+	  	android:layout_below="@id/btSpeak"
+	  	class="com.google.android.gms.maps.SupportMapFragment"
+	  	/>
+
+
+
+</RelativeLayout>
