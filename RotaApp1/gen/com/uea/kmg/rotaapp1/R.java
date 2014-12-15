@@ -173,6 +173,10 @@ containing a value of this type.
          (such as screen margins) for screens with more than 820dp of available width. This
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
+
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    
  Default screen margins, per the Android Design guidelines. 
          */
         public static final int activity_horizontal_margin=0x7f080000;
@@ -234,16 +238,20 @@ containing a value of this type.
         public static final int google_play_services_version=0x7f070000;
     }
     public static final class layout {
-        public static final int activity_notification=0x7f030000;
-        public static final int activity_notification_screen=0x7f030001;
-        public static final int activity_principal_screen=0x7f030002;
-        public static final int activity_settings_screen=0x7f030003;
+        public static final int activity_add_favorite_screen=0x7f030000;
+        public static final int activity_notification=0x7f030001;
+        public static final int activity_notification_screen=0x7f030002;
+        public static final int activity_principal_screen=0x7f030003;
+        public static final int activity_settings_screen=0x7f030004;
+        public static final int activity_visualize_favorite_screen=0x7f030005;
     }
     public static final class menu {
-        public static final int notification=0x7f0a0000;
-        public static final int notification_screen=0x7f0a0001;
-        public static final int principal_screen=0x7f0a0002;
-        public static final int settings_screen=0x7f0a0003;
+        public static final int add_favorite_screen=0x7f0a0000;
+        public static final int notification=0x7f0a0001;
+        public static final int notification_screen=0x7f0a0002;
+        public static final int principal_screen=0x7f0a0003;
+        public static final int settings_screen=0x7f0a0004;
+        public static final int visualize_favorite_screen=0x7f0a0005;
     }
     public static final class string {
         public static final int action_settings=0x7f060027;
@@ -344,6 +352,7 @@ containing a value of this type.
          */
         public static final int common_signin_button_text_long=0x7f060013;
         public static final int distance_hint=0x7f060022;
+        public static final int hello_world=0x7f06002b;
         public static final int lat_hint=0x7f060023;
         public static final int latitude=0x7f060020;
         public static final int long_hint=0x7f060024;
@@ -353,9 +362,11 @@ containing a value of this type.
         public static final int place_lat_long=0x7f06001f;
         public static final int save_notification=0x7f060025;
         public static final int settings=0x7f06001b;
+        public static final int title_activity_add_favorite_screen=0x7f06002a;
         public static final int title_activity_notification=0x7f060026;
         public static final int title_activity_notification_screen=0x7f06001d;
         public static final int title_activity_settings_screen=0x7f06001c;
+        public static final int title_activity_visualize_favorite_screen=0x7f06002c;
     }
     public static final class style {
         /** 

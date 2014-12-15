@@ -17,5 +17,8 @@
     <string name="action_settings">Settings</string>
     <string name="near_destiny">Hey, you are near of your destiny</string>
     <string name="button_speak">Speak location</string>
+    <string name="title_activity_add_favorite_screen">AddFavoriteScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_visualize_favorite_screen">VisualizeFavoriteScreen</string>
 
 </resources>
