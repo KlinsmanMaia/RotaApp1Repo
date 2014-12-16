@@ -16,4 +16,10 @@
 	<string name="save_notification">Salvar notificação</string>
 	<string name="near_destiny">Ei, prepare-se, estamos chegando ao seu destino!</string>
 	<string name="button_speak">Falar localização</string>
+	<string name="favorite_label_place">Qual o nome desde local?</string>	
+	<string name="favorite_hint_place_name">Ex.: Minha casa</string>	
+	<string name="favorite_add_location">Adicionar favorito</string>
+	<string name="favorite_bt_manager">Favoritos</string>
+	<string name="favorites_visualize">Visualizar favoritos</string>
+	
 </resources>

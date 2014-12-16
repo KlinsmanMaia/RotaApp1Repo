@@ -20,5 +20,11 @@
     <string name="title_activity_add_favorite_screen">AddFavoriteScreen</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_visualize_favorite_screen">VisualizeFavoriteScreen</string>
+    <string name="favorite_label_place">Whats the name of this place?</string>
+    <string name="favorite_hint_place_name">Ex.: My home</string>
+    <string name="favorite_add_location">Add favorite</string>
+    <string name="favorite_bt_manager">Favorites</string>
+    <string name="title_activity_favorite_manager">FavoriteManager</string>
+    <string name="favorites_visualize">Visualize favorite</string>
 
 </resources>

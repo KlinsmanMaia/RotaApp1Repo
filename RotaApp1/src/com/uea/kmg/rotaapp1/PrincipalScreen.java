@@ -49,13 +49,30 @@ public class PrincipalScreen extends FragmentActivity implements LocationListene
 	private Button btSpeakLocation;
 	private TextToSpeech textToSpeak;
 	private AsyncTaskLocation asyncTaskLocation;
-	
+	private Button btManagerFavorites;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_principal_screen);
 		
+		btManagerFavorites = (Button) this.findViewById(R.id.btFavoriteManager);
+		
 		btSpeakLocation = (Button) this.findViewById(R.id.btSpeak);
+		
+		btManagerFavorites.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+//				Intent intent = new Intent(PrincipalScreen.this, AddFavoriteScreen.class);
+//				Intent intent = new Intent(PrincipalScreen.this, VisualizeFavoriteScreen.class);
+				Intent intent = new Intent(PrincipalScreen.this, FavoriteManager.class);			
+				Bundle bundle = new Bundle();
+				bundle.putString("latitude", String.valueOf(currentLatitude));
+				bundle.putString("longitude", String.valueOf(currentLongitude));
+				intent.putExtras(bundle);
+				startActivity(intent);
+			}
+		});
 		
 		btSpeakLocation.setOnClickListener(new OnClickListener() {
 			

@@ -15,11 +15,17 @@
 	    android:layout_height="wrap_content"
 	    android:layout_below="@id/tv_location"
 	    android:text="@string/button_speak" />
+	<Button
+	    android:id="@+id/btFavoriteManager"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/btSpeak"
+	    android:text="@string/favorite_bt_manager" />
 	<fragment
 		android:id="@+id/map"
 	  	android:layout_width="match_parent"
 	  	android:layout_height="match_parent"
-	  	android:layout_below="@id/btSpeak"
+	  	android:layout_below="@id/btFavoriteManager"
 	  	class="com.google.android.gms.maps.SupportMapFragment"
 	  	/>
 

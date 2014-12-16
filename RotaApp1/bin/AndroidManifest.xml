@@ -67,6 +67,10 @@
             android:name="com.uea.kmg.rotaapp1.VisualizeFavoriteScreen"
             android:label="@string/title_activity_visualize_favorite_screen" >
         </activity>
+        <activity
+            android:name="com.uea.kmg.rotaapp1.FavoriteManager"
+            android:label="@string/title_activity_favorite_manager" >
+        </activity>
     </application>
 
 </manifest>
