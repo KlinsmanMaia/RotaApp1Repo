@@ -26,5 +26,14 @@
     <string name="favorite_bt_manager">Favorites</string>
     <string name="title_activity_favorite_manager">FavoriteManager</string>
     <string name="favorites_visualize">Visualize favorite</string>
+    <string name="title_activity_favorite_details_screen">FavoriteDetailsScreen</string>
+    <string name="favorite_detail_description_label">Description</string>
+    <string name="favorite_detail_bt_voltar">Back</string>
+    <string name="title_activity_edit_favorite_screen">EditFavoriteScreen</string>
+    <string name="favorite_edit_favorite">Edit favorite</string>
+    <string name="place_edit_lat_long">Edit coordinates:</string>
+    <string name="favorite_edit_bt_save_changes">Save changes</string>
+    <string name="title_activity_favorite_map_screen">FavoriteMapScreen</string>
+    <string name="favorite_goto_location">Go to my favorite</string>
 
 </resources>

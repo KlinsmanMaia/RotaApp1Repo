@@ -63,8 +63,6 @@ public class PrincipalScreen extends FragmentActivity implements LocationListene
 			
 			@Override
 			public void onClick(View v) {
-//				Intent intent = new Intent(PrincipalScreen.this, AddFavoriteScreen.class);
-//				Intent intent = new Intent(PrincipalScreen.this, VisualizeFavoriteScreen.class);
 				Intent intent = new Intent(PrincipalScreen.this, FavoriteManager.class);			
 				Bundle bundle = new Bundle();
 				bundle.putString("latitude", String.valueOf(currentLatitude));

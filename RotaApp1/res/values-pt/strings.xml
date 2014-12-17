@@ -22,4 +22,11 @@
 	<string name="favorite_bt_manager">Favoritos</string>
 	<string name="favorites_visualize">Visualizar favoritos</string>
 	
+	<string name="favorite_detail_description_label">Descrição</string>
+	<string name="favorite_detail_bt_voltar">Voltar</string>
+	<string name="favorite_edit_favorite">Edite seu lugar favorito</string>
+	<string name="place_edit_lat_long">Edite as coordenadas:</string>
+	<string name="favorite_edit_bt_save_changes">Salvar alterações</string>
+	
+	<string name="favorite_goto_location">Ver no mapa</string>
 </resources>

@@ -6,26 +6,29 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+     android:background="@drawable/bgblack2"
     tools:context=".FavoriteManager" >
 
     <Button
         android:id="@+id/btManagerAddFavorite"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:drawableLeft="@drawable/ic_add_favo"
         android:layout_marginTop="106dp"
+        android:background="@drawable/style_bt_add"
         android:text="@string/favorite_add_location" />
 
     <Button
         android:id="@+id/btManagerVisuFavorite"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_alignLeft="@+id/btManagerAddFavorite"
-       android:drawableLeft="@drawable/ic_visu_favorite"
+       	android:drawableLeft="@drawable/ic_visu_favorite"
         android:layout_below="@+id/btManagerAddFavorite"
         android:layout_marginTop="105dp"
+        android:background="@drawable/style_bt_add"
         android:text="@string/favorites_visualize" />
 
 </RelativeLayout>

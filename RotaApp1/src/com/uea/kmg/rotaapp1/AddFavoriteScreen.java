@@ -39,22 +39,26 @@ public class AddFavoriteScreen extends Activity {
 			public void onClick(View v) {
 					DataBaseManager dataManager = new DataBaseManager(getApplicationContext());
 					Double lat, lng;
-					String desc;
-					lat = Double.parseDouble(etFavoriteLatitude.getText().toString());
-					lng = Double.parseDouble(etFavoriteLongitude.getText().toString());
-					desc = etFavoriteDescription.getText().toString();
-					
-					dataManager.insertFavoriteLocation(new FavoriteLocation(lat, lng, desc));
 
-					for (FavoriteLocation location : dataManager.getFavoriteLocation()){
-						Log.d("Prpincipal", "-" + location.getId());
-						Log.d("Prpincipal", "-" + location.getLatitude());
-						Log.d("Prpincipal", "-" + location.getLongitude());
-						Log.d("Prpincipal", "-" + location.getDescription());
+					String desc;
+					try{
+						lat = Double.parseDouble(etFavoriteLatitude.getText().toString());
+						lng = Double.parseDouble(etFavoriteLongitude.getText().toString());
+						desc = etFavoriteDescription.getText().toString();
+						
+						dataManager.insertFavoriteLocation(new FavoriteLocation(lat, lng, desc));
+	
+						for (FavoriteLocation location : dataManager.getFavoriteLocation()){
+							Log.d("Prpincipal", "-" + location.getId());
+							Log.d("Prpincipal", "-" + location.getLatitude());
+							Log.d("Prpincipal", "-" + location.getLongitude());
+							Log.d("Prpincipal", "-" + location.getDescription());
+						}
+						
+						Toast.makeText(getApplicationContext(), "Seu favorito adicionado", Toast.LENGTH_LONG).show();
+					}catch(NumberFormatException nFE){
+						nFE.printStackTrace();
 					}
-					
-					Toast.makeText(getApplicationContext(), "Seu favorito adicionado", Toast.LENGTH_LONG).show();
-					
 					finish();
 			}
 		});

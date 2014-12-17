@@ -7,7 +7,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.uea.kmg.rotaapp1.R;
@@ -47,7 +46,6 @@ public class FavoriteAdapter extends BaseAdapter{
 			convertView = inflate.inflate(R.layout.favorite_item, null);
 			holder = new ViewHolder();
 			holder.description = (TextView) convertView.findViewById(R.id.tvLtItem);
-			holder.imgFAvorite = (ImageView) convertView.findViewById(R.id.imgLtItem);
 			convertView.setTag(holder);
 		} else {
 			holder = (ViewHolder) convertView.getTag();
@@ -59,7 +57,6 @@ public class FavoriteAdapter extends BaseAdapter{
 	
 	static class ViewHolder{
 		private TextView description;
-		private ImageView imgFAvorite;
 	}
 
 }
