@@ -29,4 +29,5 @@
 	<string name="favorite_edit_bt_save_changes">Salvar alterações</string>
 	
 	<string name="favorite_goto_location">Ver no mapa</string>
+	<string name="favorite_notify">Notificar quando estiver próximo</string>
 </resources>

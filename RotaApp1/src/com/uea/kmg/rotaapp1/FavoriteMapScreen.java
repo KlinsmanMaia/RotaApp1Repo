@@ -60,8 +60,8 @@ public class FavoriteMapScreen extends FragmentActivity {
 		    		
 		    		 googleMap.addMarker(new MarkerOptions()
 		            .position(latLng)
-		            .title("favorite")
-		            .snippet("favorite")
+		            .title("Favorito")
+		            .snippet(getIntent().getExtras().getString("description"))
 		            .icon(BitmapDescriptorFactory
 		                .fromResource(R.drawable.favorite_ico)));
 	        }

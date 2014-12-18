@@ -22,7 +22,7 @@
     </RelativeLayout>
 
     <TextView
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="25dp"
         android:id="@+id/tvDescriptionDetailLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,14 +64,21 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Button
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:id="@+id/btGoToFavorite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/favorite_goto_location" />
 
     <Button
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/btNotifyMeFavorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/favorite_notify" />
+
+    <Button
+        android:layout_marginTop="5dp"
         android:id="@+id/btFavoriteDetailVoltar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

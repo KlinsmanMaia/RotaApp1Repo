@@ -28,6 +28,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.GoogleMap.OnMapClickListener;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
@@ -63,12 +64,13 @@ public class PrincipalScreen extends FragmentActivity implements LocationListene
 			
 			@Override
 			public void onClick(View v) {
-				Intent intent = new Intent(PrincipalScreen.this, FavoriteManager.class);			
-				Bundle bundle = new Bundle();
-				bundle.putString("latitude", String.valueOf(currentLatitude));
-				bundle.putString("longitude", String.valueOf(currentLongitude));
-				intent.putExtras(bundle);
-				startActivity(intent);
+//				Intent intent = new Intent(PrincipalScreen.this, FavoriteManager.class);			
+//				Bundle bundle = new Bundle();
+//				bundle.putString("latitude", String.valueOf(currentLatitude));
+//				bundle.putString("longitude", String.valueOf(currentLongitude));
+//				intent.putExtras(bundle);
+//				startActivity(intent);
+				startSaveFavorite(currentLatitude, currentLongitude, FavoriteManager.class);
 			}
 		});
 		
@@ -107,6 +109,16 @@ public class PrincipalScreen extends FragmentActivity implements LocationListene
 	        }
         }
 		
+        
+        googleMap.setOnMapClickListener(new OnMapClickListener() {
+			
+			@Override
+			public void onMapClick(LatLng point) {
+				startSaveFavorite(point.latitude, point.longitude, AddFavoriteScreen.class);
+//				Log.d("Teste", "LAT:"+ point.latitude);
+//				Toast.makeText(getApplicationContext(), "Lat: "+ point.latitude, Toast.LENGTH_LONG).show();
+			}
+		});
 	}
 	
 
@@ -203,7 +215,7 @@ public class PrincipalScreen extends FragmentActivity implements LocationListene
 		 waldeckMarker = googleMap.addMarker(new MarkerOptions()
         .position(latLng)
         .title("Waldeck")
-        .snippet("Waldeck")
+        .snippet("Segundo ele é pesquisador agora")
         .icon(BitmapDescriptorFactory
             .fromResource(R.drawable.waldeck_ico)));
 	}
@@ -269,5 +281,14 @@ public class PrincipalScreen extends FragmentActivity implements LocationListene
 	            }				
 	         }
 	      });
+	}
+	
+	private void startSaveFavorite(Double latitude, Double longitude, Class<?> calledClass){
+		Intent intent = new Intent(PrincipalScreen.this, calledClass);			
+		Bundle bundle = new Bundle();
+		bundle.putString("latitude", String.valueOf(latitude));
+		bundle.putString("longitude", String.valueOf(longitude));
+		intent.putExtras(bundle);
+		startActivity(intent);
 	}
 }

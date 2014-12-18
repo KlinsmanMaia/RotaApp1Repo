@@ -35,5 +35,6 @@
     <string name="favorite_edit_bt_save_changes">Save changes</string>
     <string name="title_activity_favorite_map_screen">FavoriteMapScreen</string>
     <string name="favorite_goto_location">Go to my favorite</string>
+    <string name="favorite_notify">Notify me when it is near</string>
 
 </resources>

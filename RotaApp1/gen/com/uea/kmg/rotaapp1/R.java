@@ -221,33 +221,34 @@ containing a value of this type.
         public static final int waldeck_ico=0x7f020023;
     }
     public static final class id {
-        public static final int action_settings=0x7f05002c;
+        public static final int action_settings=0x7f05002d;
         public static final int btAddFavorite=0x7f05000c;
         public static final int btEditFavoriteSave=0x7f050012;
-        public static final int btFavoriteBack=0x7f05001f;
-        public static final int btFavoriteDetailVoltar=0x7f05001b;
-        public static final int btFavoriteManager=0x7f050026;
+        public static final int btFavoriteBack=0x7f050020;
+        public static final int btFavoriteDetailVoltar=0x7f05001c;
+        public static final int btFavoriteManager=0x7f050027;
         public static final int btGoToFavorite=0x7f05001a;
-        public static final int btManagerAddFavorite=0x7f05001c;
-        public static final int btManagerVisuFavorite=0x7f05001d;
-        public static final int btSaveNotification=0x7f050023;
-        public static final int btSpeak=0x7f050025;
+        public static final int btManagerAddFavorite=0x7f05001d;
+        public static final int btManagerVisuFavorite=0x7f05001e;
+        public static final int btNotifyMeFavorite=0x7f05001b;
+        public static final int btSaveNotification=0x7f050024;
+        public static final int btSpeak=0x7f050026;
         public static final int etEditFavoriteDescription=0x7f05000e;
         public static final int etEditFavoriteLatitude=0x7f050010;
         public static final int etEditFavoriteLongitude=0x7f050011;
         public static final int etFavoriteDescription=0x7f050006;
         public static final int etFavoriteLatitude=0x7f050009;
         public static final int etFavoriteLongitude=0x7f05000b;
-        public static final int etLatitude=0x7f050021;
-        public static final int etLongitude=0x7f050022;
-        public static final int etRaio=0x7f050020;
+        public static final int etLatitude=0x7f050022;
+        public static final int etLongitude=0x7f050023;
+        public static final int etRaio=0x7f050021;
         public static final int hybrid=0x7f050004;
         public static final int imageFavoriteDetail=0x7f050013;
-        public static final int imgLtItem=0x7f05002a;
-        public static final int ltvSettings=0x7f050028;
-        public static final int lvFavoritesList=0x7f050029;
-        public static final int map=0x7f050027;
-        public static final int mapFavorite=0x7f05001e;
+        public static final int imgLtItem=0x7f05002b;
+        public static final int ltvSettings=0x7f050029;
+        public static final int lvFavoritesList=0x7f05002a;
+        public static final int map=0x7f050028;
+        public static final int mapFavorite=0x7f05001f;
         public static final int none=0x7f050000;
         public static final int normal=0x7f050001;
         public static final int satellite=0x7f050002;
@@ -263,9 +264,9 @@ containing a value of this type.
         public static final int tvLongitude=0x7f05000a;
         public static final int tvLongitudeDetail=0x7f050019;
         public static final int tvLongitudeLabel=0x7f050018;
-        public static final int tvLtItem=0x7f05002b;
+        public static final int tvLtItem=0x7f05002c;
         public static final int tvPlaceLabel=0x7f050007;
-        public static final int tv_location=0x7f050024;
+        public static final int tv_location=0x7f050025;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f070000;
@@ -403,6 +404,7 @@ containing a value of this type.
         public static final int favorite_goto_location=0x7f06003b;
         public static final int favorite_hint_place_name=0x7f06002e;
         public static final int favorite_label_place=0x7f06002d;
+        public static final int favorite_notify=0x7f06003c;
         public static final int favorites_visualize=0x7f060032;
         public static final int hello_world=0x7f06002b;
         public static final int lat_hint=0x7f060023;
