@@ -12,6 +12,8 @@ import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
+import android.media.RingtoneManager;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
@@ -253,9 +255,15 @@ public class PrincipalScreen extends FragmentActivity implements LocationListene
 		    final Intent intent = new Intent(this, NotificationActivity.class);
 		    final PendingIntent pIntent = PendingIntent.getActivity(this, 0, intent, 0);
 
+		    Uri sound = Uri.parse("android.resource://"
+		            + getPackageName() + "/" + R.raw.alarm);
+		    
+		    Uri soundDefault = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+		    
 		    Notification notification = new Notification.Builder(this)
 		        .setContentTitle("Você está próximo do seu destino")
-		        .setVibrate(new long[]{ 1000, 400, 900, 300})
+		        .setVibrate(new long[]{ 200, 1000, 200, 1000})
+		        .setSound(sound)
 		        .setContentText("Ei, estamos chegando").setSmallIcon(R.drawable.ic_launcher)
 		        .setContentIntent(pIntent).build();
 		    final NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
