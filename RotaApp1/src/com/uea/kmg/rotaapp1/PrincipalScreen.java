@@ -12,7 +12,6 @@ import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
-import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -66,12 +65,6 @@ public class PrincipalScreen extends FragmentActivity implements LocationListene
 			
 			@Override
 			public void onClick(View v) {
-//				Intent intent = new Intent(PrincipalScreen.this, FavoriteManager.class);			
-//				Bundle bundle = new Bundle();
-//				bundle.putString("latitude", String.valueOf(currentLatitude));
-//				bundle.putString("longitude", String.valueOf(currentLongitude));
-//				intent.putExtras(bundle);
-//				startActivity(intent);
 				startSaveFavorite(currentLatitude, currentLongitude, FavoriteManager.class);
 			}
 		});
@@ -117,8 +110,6 @@ public class PrincipalScreen extends FragmentActivity implements LocationListene
 			@Override
 			public void onMapClick(LatLng point) {
 				startSaveFavorite(point.latitude, point.longitude, AddFavoriteScreen.class);
-//				Log.d("Teste", "LAT:"+ point.latitude);
-//				Toast.makeText(getApplicationContext(), "Lat: "+ point.latitude, Toast.LENGTH_LONG).show();
 			}
 		});
 	}
@@ -258,7 +249,7 @@ public class PrincipalScreen extends FragmentActivity implements LocationListene
 		    Uri sound = Uri.parse("android.resource://"
 		            + getPackageName() + "/" + R.raw.alarm);
 		    
-		    Uri soundDefault = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+		  //  Uri soundDefault = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 		    
 		    Notification notification = new Notification.Builder(this)
 		        .setContentTitle("Você está próximo do seu destino")

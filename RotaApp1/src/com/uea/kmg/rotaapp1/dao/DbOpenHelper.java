@@ -14,7 +14,6 @@ public class DbOpenHelper extends SQLiteOpenHelper{
 	
 	private DbOpenHelper(Context context) {
 		super(context, DATA_BASE_NAME, null, DATA_BASE_VERSION);
-		//http://developer.android.com/training/location/display-address.html	
 	}
 	
 	public static DbOpenHelper getInstance(Context context){
