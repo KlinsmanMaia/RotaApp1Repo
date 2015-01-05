@@ -31,7 +31,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.uea.kmg.rotaapp1.PrincipalScreen"
+            android:name=".PrincipalScreen"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -45,43 +45,51 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyBs_xOn53jVJ13v09ePNVwqx58nxGePaeI" />
+            android:value="AIzaSyBbWqy8BCug8B4X480g9_uYF8kmhv5vx5U" />
 
         <activity
-            android:name="com.uea.kmg.rotaapp1.SettingsScreen"
+            android:name=".SettingsScreen"
             android:label="@string/title_activity_settings_screen" >
         </activity>
         <activity
-            android:name="com.uea.kmg.rotaapp1.NotificationScreen"
+            android:name=".NotificationScreen"
             android:label="@string/title_activity_notification_screen" >
         </activity>
         <activity
-            android:name="com.uea.kmg.rotaapp1.AddFavoriteScreen"
+            android:name=".AddFavoriteScreen"
             android:label="@string/title_activity_add_favorite_screen" >
         </activity>
         <activity
-            android:name="com.uea.kmg.rotaapp1.notification.NotificationActivity"
+            android:name=".notification.NotificationActivity"
             android:label="@string/title_activity_notification" >
         </activity>
         <activity
-            android:name="com.uea.kmg.rotaapp1.VisualizeFavoriteScreen"
+            android:name=".VisualizeFavoriteScreen"
             android:label="@string/title_activity_visualize_favorite_screen" >
         </activity>
         <activity
-            android:name="com.uea.kmg.rotaapp1.FavoriteManager"
+            android:name=".FavoriteManager"
             android:label="@string/title_activity_favorite_manager" >
         </activity>
         <activity
-            android:name="com.uea.kmg.rotaapp1.FavoriteDetailsScreen"
+            android:name=".FavoriteDetailsScreen"
             android:label="@string/title_activity_favorite_details_screen" >
         </activity>
         <activity
-            android:name="com.uea.kmg.rotaapp1.EditFavoriteScreen"
+            android:name=".EditFavoriteScreen"
             android:label="@string/title_activity_edit_favorite_screen" >
         </activity>
         <activity
-            android:name="com.uea.kmg.rotaapp1.FavoriteMapScreen"
+            android:name=".FavoriteMapScreen"
             android:label="@string/title_activity_favorite_map_screen" >
+        </activity>
+        <activity
+            android:name=".ZtesteEmptyActivity"
+            android:label="@string/title_activity_zteste_empty" >
+        </activity>
+        <activity
+            android:name="com.uea.kmg.rotaapp1.tirateima.NearAndFarLocationScreen"
+            android:label="@string/title_activity_near_and_far_location_screen" >
         </activity>
     </application>
 

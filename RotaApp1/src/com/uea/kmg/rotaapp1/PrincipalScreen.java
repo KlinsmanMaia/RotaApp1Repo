@@ -17,6 +17,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.support.v4.app.FragmentActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -85,10 +86,8 @@ public class PrincipalScreen extends FragmentActivity implements LocationListene
         	final int requestCode = 10;
             final Dialog dialog = GooglePlayServicesUtil.getErrorDialog(status, this, requestCode);
             dialog.show();
-            
         }else {		
 			SupportMapFragment fm = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
-			
 			googleMap = fm.getMap();
 			googleMap.setMyLocationEnabled(true);				
 	        locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
@@ -96,8 +95,11 @@ public class PrincipalScreen extends FragmentActivity implements LocationListene
 	        Criteria criteria = new Criteria();
 	        provider = locationManager.getBestProvider(criteria, true);
 	        Location location = locationManager.getLastKnownLocation(provider);
+
 	        locationManager.requestLocationUpdates(provider, 20000, 0, this);
 
+	        Log.d("rerere", "dsdasdasdasdadasdasda   Provider: " + provider);
+	        
 	        if(location!=null){
 	        	setInitialPositionAndMark(location);
 	    		onLocationChanged(location);

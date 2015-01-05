@@ -18,9 +18,9 @@
 	<string name="button_speak">Falar localização</string>
 	<string name="favorite_label_place">Qual o nome desde local?</string>	
 	<string name="favorite_hint_place_name">Ex.: Minha casa</string>	
-	<string name="favorite_add_location">Adicionar favorito</string>
+	<string name="favorite_add_location">Adicionar local</string>
 	<string name="favorite_bt_manager">Favoritos</string>
-	<string name="favorites_visualize">Visualizar favoritos</string>
+	<string name="favorites_visualize">Visualizar locais</string>
 	
 	<string name="favorite_detail_description_label">Descrição</string>
 	<string name="favorite_detail_bt_voltar">Voltar</string>
@@ -30,4 +30,11 @@
 	
 	<string name="favorite_goto_location">Ver no mapa</string>
 	<string name="favorite_notify">Notificar quando estiver próximo</string>
+	
+	<string name="json_file_run_sucess">Dados Atualizados</string>
+	<string name="json_show_near_location">Mostrar ponto mais próximo</string>
+	<string name="json_show_far_location">Mostrar ponto mais distante</string>
+	<string name="json_bt_manager_run">Carregar dados do Json</string>
+	<string name="json_radius_distance">Raio de distância</string>
+	
 </resources>

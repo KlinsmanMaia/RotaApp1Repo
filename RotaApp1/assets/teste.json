@@ -1,0 +1,327 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CoQC_AAAAP2iCOq-vGZ4deTjI8kjo_6q5yFzpT-l0ZXN2ctQBNL7DiXQ5x8lNsNI5EQkHeSDnLjRtFyZBJsIi3eAiXoElpISwR1TYANSNfiljLBh5i-SpZLT-jqbTKlhmY-wWaQNb2zi8Eea-HNvhKnkrjehySXWABhiXjXAT-T7BPeumyvY-LMvlX-NFtC0e0ml1O7W9TBAEXoNOTYkh9isU9ZT08g8eO4FLKD_qSMKBEcuVRXLxeC7CKZBhdu7qagaxk3ay8Nkptzk00VjgkAG3je4xXIyh9Tu7cPaAlNCwQaMDfnB8QRQzmrucysOVkm0sal6uNbK-mp1Qb2jdXpIedR3jmMSEJQmCQe8MbqMLlAa84C61DEaFN7cd0-749iRbXFupY837X6yaA57",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.099195,
+               "lng" : -60.015507
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "20ffe3bb31bf55a73e143689487783a3ff7559a5",
+         "name" : "Terminal Bairro Parque do Idoso",
+         "place_id" : "ChIJOTzI6K0abJIRhOUcs13oaJc",
+         "reference" : "CpQBgQAAACUP3fPQj8THoB6TkDyj7sEiDbTcjF3nv_lS-L0rt9PcROsArUbvk5IEAXirKZJy886VAKRuMNA2fxPJcl979y5ufvzOzYZApnu9qSu-sYe4wQDxnVbz_6muxG-dsBezZCLf5n_DZnSyAVnCdRS-Ht_ZpSPeE0Co9Uf6LN7-ftk5IgB45u74Mt7C2VZgBkmQrhIQw8eHEbFghZSOldnw3-7QJBoUMwbwetgUr4E9nqJ_ydJDhQciSAM",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.096336,
+               "lng" : -60.013324
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "874045d761e75fdfe3b1f15db4bb8007ab49c5c6",
+         "name" : "Avenida Recife, 1997",
+         "place_id" : "ChIJw82uzLEabJIRNYXrkiZy4rI",
+         "reference" : "CoQBdgAAAN7DSAUeGWbVdosQi_clkiisUFzlJvBOYst7PoiMdCFqB84C-XtWkl1UatV-zAVeXufutele2C8jNHZgFtLPOcuKLB3ydQyBSZOBCy83hg5mwpJAdzuBJDMPmI4_ToI-sRcpU9paEFAxDKs4vzGHAIDhDOMeRp4s6v7zzgNDeIOVEhCVv4UeA73pWJrs8w842v_zGhTj6et4_3ioVVRBE8slP-Gr0AOE2g",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.093353,
+               "lng" : -60.023289
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f20913fc0bc146cdf78838138e6fb48a54a3c06d",
+         "name" : "Avenida Darcy Vargas, 1780",
+         "place_id" : "ChIJbcJwyqcabJIRnxCpgeHcdCA",
+         "reference" : "CoQBewAAACWyBxc83lrHhmbkk18R9zVnByhWk72ENbPewf41OXC1dXXwEfOK6WIphaVn084VSJSyZwozDH-iBymuzcMO3QEC-xfrYxFI7KAmtou-WECCTa5KEyQfCg6hltIjzY9EikNfRueiT7pn8aE0avgzLkISKcG6w7redwKIoFeHkSS1EhANyW1pzttuVIOxRWu_norHGhTQpOneAEB7zOvXOSmQ28L55X0sgg",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.099382,
+               "lng" : -60.009625
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "5f1be5f1aba99d58f1473439eb46849444629879",
+         "name" : "Avenida Paraíba, 1459",
+         "place_id" : "ChIJ_z-O7LMabJIRQPxherM78lw",
+         "reference" : "CoQBdwAAAHHDmwEiSAcVxRRG-APHEHbQz7c-bv6vMJ6zBb2WPqa_ZzsNC0PhId2iqL4wb3qrGnl3uxgPXKxUyaIfi2UjE9WFtthA_RQoSYOkU3fUVmhd57Vr6UF2xPsTBoJeX6EcIiVgP5HMCrYPzRmHGZE18IvXMHy_BRGo7LDJzD9isevcEhBp3K_AhY-fn9T7C9HH_oXRGhR9szR_dEkYWzAGeI4s4eJHDCiODQ",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.086637,
+               "lng" : -60.011833
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "3f081ba846b713e3f233498ca64ddae6027ab748",
+         "name" : "Avenida Perimetral, 589",
+         "place_id" : "ChIJd_f5C70abJIRCuw8YZKn3tw",
+         "reference" : "CoQBeQAAAHewpWma8T6Ld789hO83y67iTycoR50otCuPD8ZHC9F_fwVfrM5FNYEFSDC2VlJ27ygY0LGpiSK3v5j70EYg1zFT-mybZ5AqQ9PvcIt7BKelTZOGp_aupZMqaC_eg54lA-VjhqdQuyd_t0Y2JjaV2MUBci-wqKDmussMvZD8x-3rEhD1gy6790oRbwdfHGVIzsP-GhT41sMSFjNF0YlYsVI3KKevgO8beA",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.099594,
+               "lng" : -60.026432
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "7d3897209834d00da9dd677755643d53c75dc6ed",
+         "name" : "Avenida Constantino Nery, 2466",
+         "place_id" : "ChIJRQKzpQAQbJIRyuTN72bI2z0",
+         "reference" : "CoQBfwAAACxdBxhz2OAg_V_Yi8KszaYGAw3iyJm9o-Rw0E_0TxK86m1mfnHzfqNfeQpVcMjXqO1YOXZYt0mzR1bO3coocNLWy4TuJPTjUNk-Up-ZBhepch3RTGqiwYjulvJvPQiKlNhuNr4M7P5695imjqyOaOEiPM_ZM0b8dlFdbdNVJQxCEhACphpCRHkK98UwivBRka2dGhSiOG_Vk-MKk1zzkNAVM7QyctHP6A",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.095473,
+               "lng" : -60.024194
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "d782449e6321c85388cd4f47c76298fbabf8e271",
+         "name" : "Avenida Djalma Batista, 2238",
+         "place_id" : "ChIJV_I8aqgabJIRzuGZnfiG6mc",
+         "reference" : "CoQBfQAAAIF4Ha4RpAedPDU6lEc0GeBazslAPkAMqn8n3R0ETR0TdSYB8YUBDcAIFGss3xMl3hBMSb3UoNM37bDg5O1OiQiB4QtCcwWrjPyV19FL77YV9K78oMzwyYv40VDWyrJ7q7zjiTW6jpbv116IAC91zBKVP6j_k_CXLNp-e-0zo24EEhCL8F8C3209G1iQ3iEfd3lYGhQ6kr_xwTC0eiYKWW3auxyiYgBOcg",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.084237,
+               "lng" : -60.024225
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "8b79dd4342895291ca1ab9008fd8f4d8a4ac8ff2",
+         "name" : "Avenida Djalma Batista, 779",
+         "place_id" : "ChIJ18JquZ8abJIR6tUqIhIxwMk",
+         "reference" : "CoQBfQAAAKTbRAwP6RVBM93oo4qCgdbLJ5zYaXSvMdqpCaohKzpc_Wa_FtKKxuSNIXyV_oAeNYPbLCBcwpu5_X5ThuB7XREnZnCGYx4RpIZPUIr6PI4Ft4Sclhsr4z_XM1TLe320NHH7NoikCFx52ek60sJ0sD__Z2jS30iyVFwitEHVi6P0EhBj0_dGOyM2h1dvKBaokye1GhQVAjH7eHSSspqXiEbbCzIZEwLDHw",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.089043,
+               "lng" : -60.023014
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "1aa6f6281f679582fe173f560e695bc86fb29b9c",
+         "name" : "Avenida Rio Negro, 128",
+         "place_id" : "ChIJa7h6IKEabJIRas6dsGgczQk",
+         "reference" : "CoQBdwAAADgzlVdpSvHwGKkbmLvHwBxLNRnpGcSPllOYUT8Kata14bUKF7LlpFzbrKGnek24LFsed3jDL5uUzeUNW3LRbcsI0LYDEKIQXzyDJfBNVJB1ROc-hyOwAXzm0b19ZSbyjG6GPepw4SBHwY-ycnvxmddjRtsHM0pzPGtKowFlr-BCEhDgzwZdQC-J-O4rsPX10ns1GhRl6uj7gCt7TLptxiPJq8ZqsB28Sw",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.08555,
+               "lng" : -60.016055
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "5e1dabdd780cbf69796052d3dac7e6d90b18fa9b",
+         "name" : "Avenida Perimetral I, 405",
+         "place_id" : "ChIJVVRXnqIabJIRjc3WVkNoseY",
+         "reference" : "CoQBewAAAHhEvkgnvna08pE17y41ch8ZGtH7uJPdfufEj2__GfuFs46Q7X9k4EqkyKGTrdI2Ym7ntw9w8LDCKy_7lRYYfCRXd-ruOrBD_7kPo2XTja_s5im5DmvtHXXNbmb7hCMZGZq_ICwlAtgwwxrE5LaSLPFB6ZNJ91bWi9bcGliDNH80EhCa27t6o3RYXvyYv6ZkCXQuGhR7MsiuiPA12_1ByreILv_1s984nA",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.098465,
+               "lng" : -60.019242
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "48c2daea797ebebc01355135bb52c79cb73c161d",
+         "name" : "Avenida Rio Mar, 2",
+         "place_id" : "ChIJL0aJpq4abJIR6cxtAxULwkw",
+         "reference" : "CoQBcwAAAJVFswKS3RUOvQ28iFN1j68wzqPpX-9vMvJe7B1a5MG893aiLRf6gR8-Qvk8MxuAV_0OfuG5ZtnTURHc1WFbIw10x1glt1-W1ngNdjUbn-hb3QAt-RUIfApgsY8-0VI5mlhnpPdWWhV3_L45GRu8u_Yl5EFzxDC0I_hVAVm5NuBcEhBs032k20sL3XOPb9JhtLBpGhQpn6k1L9H26RHHoTYfzYAKgCc4EA",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.091337,
+               "lng" : -60.017426
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e630bb0b0addae935bdb33cf14cbcb1ee1dc79cd",
+         "name" : "Avenida Jornalista Humberto Calderaro Filho, 96",
+         "place_id" : "ChIJkT77WKQabJIR3cxuablom-M",
+         "reference" : "CqQBkgAAAPgBhY013J0AHcHBufqw6Hl9r6SX8lQbAXarFFn5cPUGTPJvnyObz58-8C5XJoJvIyMx4VqTucLvVSKgnJ3ccnOBHiFVoryH8NWjG2OSBFIN7eHNLNgZHnkmwt33IPFnbJ-gmh8v2ca7JliNFQsycbnB9dEJoao53lxOhiuj04yNA-L7njInnuS2wU4YayNsdDeg2Bz9q79X8c_Gl-CZU9QSEMXhDgT20qgTA3m-pRW8QkMaFIGgTAkcty90E3JChqTccIEGOxMy",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.087836,
+               "lng" : -60.021635
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "897c6cf642637fb6933034520cb1fc76914431ec",
+         "name" : "Rua Rondônia, 293",
+         "place_id" : "ChIJlY6xCqEabJIR_sk8kae4hfk",
+         "reference" : "CoQBdAAAAGwzEu6ExYaBrJNwEQIlhkJSNg-6prP0RvPAH9G0UK9Q6hZZo6-vpl6eZLVKj5eM3ID1nzccTexu5HyHklwke4loJl9V8YBopPFpNfG3webRRPijkz1xE8fQBQ4lPkn7Kl3gpFRLSAmX9aJQ2iVXgoTcAx5C2KAgn3YeQ2-gBNSkEhAHBcocpXOUWEvk9AFGRVBtGhTnblgs_b05B5NErfxvNEyUdA3lcA",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.087638,
+               "lng" : -60.024364
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4c67854a01832587f0419c403325c6034a611580",
+         "name" : "Avenida Djalma Batista, 1382",
+         "place_id" : "ChIJV6R6XqAabJIRK8MMl1XgPg8",
+         "reference" : "CoQBfQAAAJArdGGZNYUFMVtmqMG4hpyxQX89oMQrtuf3fGC3JkPEsvWBIXwkAfPIsLlw7_tTjOGWm11e_2vvH6MdBeOY4HUl2Rf3rdAowaUo-JkO6AVMkj5YYWtCt5s6oAD9_spO24ro-wNh_mHFz65zbstpoBamUii6uuxhU7HpzAqBRRL2EhCD-ezp8sGqXZs300RNEGShGhRf-m0TgiVGwqYypZx1eFAF8AXuGQ",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.0906,
+               "lng" : -60.011657
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "b7e794595b0ceb28a85a94c1865d41d7115d9a16",
+         "name" : "Avenida Ephigênio Salles, 301",
+         "place_id" : "ChIJlT6ydbsabJIRs8AjgH0TWqo",
+         "reference" : "CoQBgAAAANAI4cqS-uV17I8Y02o3sNscdlc3On4t_7GhWk2OG-zoopBcqbJ6ysjaq9q5hYCnSatD5pXCJueETouyyPxgYXYEKWdraatrmFdvDnl3VXJZef4fxAva0f2Q2A_DDfIJtCl-28b24t3lCJidnvVXeq5tPVMx9S6ekCHCwbFSTSQlEhDaEU6GENbW-2WOPovD7uNYGhTSIObLxfz17P-PZ6Thg1YixqMPTQ",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.09883,
+               "lng" : -60.013492
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "18f4c19f9bdd970012da95d48ca6a31577f3ca8b",
+         "name" : "Avenida Recife, 1813",
+         "place_id" : "ChIJ11V2G7IabJIRgL5QZFARvTg",
+         "reference" : "CoQBdQAAACrnSvXdXcxKjHxedFRdWFWtdRyIxMic7t0fbGCozJeNya9kgi3MwoejxmBQlpaQ7UwROjHJvOnT2SwjcxgVLGKDEuswbiYkuldKSPUqHWkNcad0Y_Bvcdu1s4NtzpGDr3a-oHqH7uL4_PkBNkeDgtZqqsSYIqQn-Q5gXnl4L4BKEhAstH-7STYGiecmA4YMXTWdGhTHCMbwyr8o5yoHmf4vqoAa8uycpQ",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.086042,
+               "lng" : -60.016414
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "710ef98e73387ea966808748a7e230c2fc72d229",
+         "name" : "Avenida Perimetral I, 262",
+         "place_id" : "ChIJjQVmkKIabJIRrbKLCwmyTb8",
+         "reference" : "CoQBewAAAN9PJx-UIs7nNzIiJaaukgotjdlM64GS-7C7jW5G89rBxhdAlNsn4SOK_OzT2rAdMCTXJqrxnCMTbg9Awa3VnrFwq8I8cw-wY_h0PS3slshbKZRwFy44ACWHHdV3W80HFQYCf6qTIFmAJN8zruDiJ1sRvSDBUmJ5cXqa5elifOA-EhAI2slxbQTrJfE62vJMRsIsGhTrNzKB1f5enCS_xQaUnCspv26H-w",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.087282,
+               "lng" : -60.019489
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "737d2dbd9da391c4664ee67ade6214f22b3b1a06",
+         "name" : "Avenida Recife, 3337",
+         "place_id" : "ChIJ4U3FL6IabJIRKLI1cG6GApw",
+         "reference" : "CoQBdgAAAEohzyrLa7XI74VQOu-1aTeqhDzYiO6c7nLqIKazZTo6BwcEV_3yH444PlwRfQjZoarJ36xn0yo5UekcLkvzcJGVPP5EIAOMRf2Ah0gaq5K9-gLMjJZr0lZHjzhCsQ00jQEA1QwTv-iMHPo2NLwDVk35Q8U6otpSLWJSKStg1tZ0EhCc3MnS4qabi3bSCzPkXQQSGhRpFReK4j5JNOtSc1FcHHHcUpqFXQ",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.083372,
+               "lng" : -60.013896
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "46c492ffe058402994bdf5337229221a65cd071c",
+         "name" : "Avenida Perimetral I, 724",
+         "place_id" : "ChIJ-3G9g5cabJIRoKnxeIXjZ8I",
+         "reference" : "CoQBewAAALxoafP54FE9eK3TJHutcq-ipTNsnYMlXRM3qDFSHuZhVWK63v1BhruwiqriCztn3Gq5b00JB4D7Xe1xTf8LukpGMksz0QA8c89ESRBuxVoTuDkx4T0ehhiJ8XjbSkxf4Vlp45Hkba3wBCnGj86D7H6tOi2XWHL0AEInUulf1MaZEhB0Uss-xicJsJgLJR1Jdx69GhQSbsTcSmz7np0j70JgWrw7qjJAPA",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : -3.090954,
+               "lng" : -60.01782
+            }
+         },
+         "icon" : "http://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "609da37a9db574716ef941a48b32216b94d8c061",
+         "name" : "Avenida Jornalista Humberto Calderaro Filho, 107",
+         "place_id" : "ChIJA--BZ6QabJIRCKmJsJ_ZiLk",
+         "reference" : "CqQBkwAAAO5LcjHzkh-IEZNz0kM_2Yw7RK_40wtAi-78BawDrwm5q0-0quPv7VBB7UNGYIiyg3JCADLH-48ZMVIFCFj8v-WAB9d8UY2OXw8IixU-b_EBD6Ir63SVKbDLT2pW6W1dmnKJw8vo-_Wq1E5DKGHDnhCgBVSYLChkVq72bT32hxGZ1xKq_RBfmmlYhsvv4zsJMngMZGPE4s4mxpQWCrgCajASEEJUeWJAMVJuGOufZmxQD9gaFMhBDSYC0BPpGmZQb36YZR_RNO5a",
+         "scope" : "GOOGLE",
+         "types" : [ "bus_station", "transit_station", "establishment" ],
+         "vicinity" : "Brazil"
+      }
+   ],
+   "status" : "OK"
+}

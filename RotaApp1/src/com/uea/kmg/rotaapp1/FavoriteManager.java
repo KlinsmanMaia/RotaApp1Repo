@@ -8,9 +8,12 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+import com.uea.kmg.rotaapp1.tirateima.NearAndFarLocationScreen;
+
 public class FavoriteManager extends Activity {
 	Button btAddFavorite;
 	Button btVisualize;
+	Button btRunJsonFile;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -19,6 +22,7 @@ public class FavoriteManager extends Activity {
 		
 		btAddFavorite = (Button) this.findViewById(R.id.btManagerAddFavorite);
 		btVisualize = (Button) this.findViewById(R.id.btManagerVisuFavorite);
+		btRunJsonFile = (Button) this.findViewById(R.id.btManagerRunJson);
 		
 		btAddFavorite.setOnClickListener(new OnClickListener() {
 			
@@ -36,6 +40,19 @@ public class FavoriteManager extends Activity {
 			public void onClick(View v) {
 				Intent intent = new Intent(FavoriteManager.this, VisualizeFavoriteScreen.class);
 				startActivity(intent);
+			}
+		});
+		
+		btRunJsonFile.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+			
+				Intent intent = new Intent(FavoriteManager.this, NearAndFarLocationScreen.class);
+				intent.putExtras(getIntent().getExtras());
+				startActivity(intent);
+								
+			
 			}
 		});
 		

@@ -36,5 +36,13 @@
     <string name="title_activity_favorite_map_screen">FavoriteMapScreen</string>
     <string name="favorite_goto_location">Go to my favorite</string>
     <string name="favorite_notify">Notify me when it is near</string>
+    <string name="title_activity_zteste_empty">ZtesteEmptyActivity</string>
+    <string name="title_activity_near_and_far_location_screen">NearAndFarLocationScreen</string>
 
+    <string name="json_file_run_sucess">Done</string>
+	<string name="json_show_near_location">Show near location</string>
+	<string name="json_show_far_location">Show far location</string>
+    <string name="json_bt_manager_run">Run Json</string>
+    <string name="json_radius_distance">Radius distance</string>
+    
 </resources>

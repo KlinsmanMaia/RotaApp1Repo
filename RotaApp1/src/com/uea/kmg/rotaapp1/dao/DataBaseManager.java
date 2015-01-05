@@ -83,4 +83,9 @@ public class DataBaseManager {
 		String [] idValues = {String.valueOf(id)};
 		dataBase.delete("favoritelocation", "_id = ?", idValues);
 	}
+	
+	public void deleteAllTableFavoriteLocation() {
+		dataBase = dbHelper.getWritableDatabase();
+		dataBase.execSQL("DELETE FROM favoritelocation");
+	}
 }

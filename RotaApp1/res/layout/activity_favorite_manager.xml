@@ -27,8 +27,18 @@
         android:layout_alignLeft="@+id/btManagerAddFavorite"
        	android:drawableLeft="@drawable/ic_visu_favorite"
         android:layout_below="@+id/btManagerAddFavorite"
-        android:layout_marginTop="105dp"
+        android:layout_marginTop="50dp"
         android:background="@drawable/style_bt_add"
         android:text="@string/favorites_visualize" />
+
+    <Button
+        android:id="@+id/btManagerRunJson"
+        android:background="@drawable/style_bt_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btManagerVisuFavorite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/json_bt_manager_run" />
 
 </RelativeLayout>

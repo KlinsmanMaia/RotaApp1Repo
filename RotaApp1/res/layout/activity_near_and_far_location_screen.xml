@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tvJsonRunSucess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/json_file_run_sucess"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvJsonRadioDistance"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/json_radius_distance"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/etJsonSizeRadius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:inputType="phone"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btJsonShowNearLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/json_show_near_location" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btJsonShowFarLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/json_show_far_location" />
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:id="@+id/btJsonBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/favorite_detail_bt_voltar" />
+
+</LinearLayout>
